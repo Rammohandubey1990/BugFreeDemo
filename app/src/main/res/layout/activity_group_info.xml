@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.GroupInfo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/boy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Group Name : Samyak"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100sp"
+                android:gravity="center"
+                android:text="Description : "
+                android:textSize="25sp" />
+
+            <RelativeLayout
+
+
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+
+                <ImageView
+                    android:id="@+id/img_add"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+
+                    android:src="@drawable/ic_plus_st" />
+
+                <ImageView
+                    android:id="@+id/img_minus_first"
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/img_add"
+
+                    android:src="@drawable/minus" />
+
+
+                <ImageView
+                    android:id="@+id/img_third"
+
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/img_minus_first"
+
+                    android:src="@drawable/minus" />
+
+                <ImageView
+
+                    android:id="@+id/img_four"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/img_third"
+
+                    android:src="@drawable/minus" />
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+
+                    android:layout_toRightOf="@+id/img_four"
+
+                    android:src="@drawable/minus" />
+
+                <ImageView
+                    android:layout_width="40dp"
+
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/img_add"
+                    android:layout_margin="5dp"
+
+                    android:src="@drawable/minus" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="60sp"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button_focused"
+                    android:gravity="center"
+                    android:text="Create Group"
+                    android:textColor="@color/white"
+                    android:textSize="22sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

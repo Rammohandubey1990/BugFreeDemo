@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "856531334490",
+    "firebase_url": "https://bugfreedemo.firebaseio.com",
+    "project_id": "bugfreedemo",
+    "storage_bucket": "bugfreedemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856531334490:android:32e08088773e857c",
+        "android_client_info": {
+          "package_name": "com.example.bugfreeram.samyak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856531334490-9qsrhdc0n472qcc6irb4mu2da6de67mp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bugfreeram.samyak",
+            "certificate_hash": "d9c271d5dfcda17cdfacd52ae653196bf10fec54"
+          }
+        },
+        {
+          "client_id": "856531334490-ojjpidtv9o0k0t26sgiejl1r3p6bkn41.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHwl7bkkA4r41YrmdhEkNobfoeCNQ6dac"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856531334490-ojjpidtv9o0k0t26sgiejl1r3p6bkn41.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    card_view:cardCornerRadius="4dp"
+    android:layout_margin="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_paidby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paid by : "
+            android:gravity="center_vertical"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+         />
+
+        <TextView
+            android:id="@+id/tv_toatal_paid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total paid: "
+            android:gravity="center_vertical"
+            android:textSize="15dp"
+            android:layout_below="@id/tv_paidby"
+            android:layout_marginTop="10dp"
+/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date : "
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="150dp"
+            android:layout_alignBaseline="@id/tv_paidby"/>
+
+        <TextView
+            android:layout_below="@+id/tv_toatal_paid"
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Total Amount : "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

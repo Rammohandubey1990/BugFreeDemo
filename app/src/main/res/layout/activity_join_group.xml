@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+
+    android:layout_gravity="center"
+    tools:context=".Activity.JoinGroup"
+    android:orientation="vertical">
+
+
+
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textColorHint="@android:color/black"
+        android:hint="Enter Group ID"
+
+        android:id="@+id/edt_enter_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:textColor="@color/white"
+        android:background="@drawable/button_focused"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:text="Join"
+        android:id="@+id/btn_join_group"
+        android:layout_width="150dp"
+        android:layout_height="60dp" />
+
+</LinearLayout>

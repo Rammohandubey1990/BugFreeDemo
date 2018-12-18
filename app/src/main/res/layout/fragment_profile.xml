@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+  <RelativeLayout
+      android:id="@+id/rly_top"
+      android:layout_marginTop="5dp"
+      android:layout_width="match_parent"
+      android:layout_height="100dp">
+
+
+
+
+  <de.hdodenhof.circleimageview.CircleImageView
+      android:layout_centerVertical="true"
+      android:id="@+id/img_user"
+      android:src="@drawable/boy"
+
+      android:layout_width="80dp"
+      android:layout_height="80dp" />
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/img_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+  <TextView
+      android:textSize="17sp"
+      android:text="UserName : BugFreeRam"
+      android:id="@+id/tv_user_Name"
+      android:layout_toRightOf="@+id/img_user"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+  <TextView
+      android:textSize="17sp"
+      android:text="Number Of Groups : 5 "
+      android:layout_below="@+id/tv_user_Name"
+      android:layout_toRightOf="@+id/img_user"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+  </RelativeLayout>
+
+  <TextView
+      android:id="@+id/tv_email"
+      android:textSize="15sp"
+      android:text="E-mail id: bugfreeram@gmail.com"
+      android:layout_below="@+id/rly_top"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <TextView
+
+      android:id="@+id/tv_phoneNo"
+      android:textSize="15sp"
+      android:layout_marginBottom="5dp"
+      android:text="Mob no : 1234567890"
+      android:layout_below="@+id/tv_email"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+  <android.support.v7.widget.RecyclerView
+
+      android:id="@+id/rv_profile_user"
+      android:layout_below="@+id/tv_phoneNo"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+
+  </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
