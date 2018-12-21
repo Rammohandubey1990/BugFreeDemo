@@ -1,21 +1,21 @@
 package com.example.bugfreeram.samyak.Fragments;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
+import com.example.bugfreeram.samyak.Activity.MainEffects;
 import com.example.bugfreeram.samyak.Adapter.ProfileAdapter;
 import com.example.bugfreeram.samyak.Models.ProfileData;
 import com.example.bugfreeram.samyak.R;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -37,6 +37,17 @@ public class ProfileFragment extends Fragment {
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(mAdapter);
+
+        ImageView imageView = (ImageView)view.findViewById(R.id.img_user);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getActivity(), MainEffects.class);
+                startActivity(intent);
+            }
+        });
+
+
        /* recyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true));
         recyclerView.setNestedScrollingEnabled(false);
 */
