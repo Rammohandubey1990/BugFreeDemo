@@ -82,6 +82,8 @@
     <color name="deepPurple5">#D1C4E9</color>
     <color name="white">#FFFFFF</color>
 
+    <color name="custom">#AA3939</color>
+
 
 
 </resources>
